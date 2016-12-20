@@ -7,8 +7,21 @@
     <!-- this gets the stylesheet from the cloud
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     -->
+  <!--Materialize-->
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- styles -->
     <link rel="stylesheet" href="{{ "/assets/css/materialize.css"  | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/assets/css/site.css"  | prepend: site.baseurl }}">
+    
+    <!-- JQuery Initialization -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+    </script>
+    
+        
 </head>
 
 <body>
