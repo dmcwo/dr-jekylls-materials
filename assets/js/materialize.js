@@ -3187,7 +3187,19 @@ $(document).ready(function(){
     };
 
   }); // End of $(document).ready
+    
+  /*******************
+   *  Some custom document ready's  *
+   ******************/
+    
+$(document).ready(function(){
+  $('.slider').slider({full_width: true});
+});
 
+  /*******************
+   *  End custom document ready's  *
+   ******************/
+    
   /*******************
    *  Select Plugin  *
    ******************/
