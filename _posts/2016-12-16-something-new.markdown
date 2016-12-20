@@ -2,7 +2,7 @@
 layout: post
 title:  "Dr. Jekyll's Materials"
 date:   2016-12-16 19:48:51 -0800
-categories: material design
+categories:
 excerpt: Into this wilde Abyss....
 ---
 

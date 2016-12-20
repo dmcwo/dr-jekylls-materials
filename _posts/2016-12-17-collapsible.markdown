@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Collapsibles and other tricky materials"
+title:  "Collapsibles"
 date:   2016-12-17 19:48:51 -0800
-categories: material design
+categories:
 excerpt: Dr. Jekyll has a few tricks, like collabsibles and cards and such
 ---
 
