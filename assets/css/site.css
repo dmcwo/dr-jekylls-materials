@@ -1,3 +1,10 @@
 ---
 ---
 .supercustom {font-size: 100em;}
+
+.paginatiocenter {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 25px;
+    
+}
