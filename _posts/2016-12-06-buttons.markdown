@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Buttons"
+date:   2016-12-06 19:48:51 -0800
+categories:
+excerpt: Buttons and dropdown buttons
+---
+#### Wave btns
+
+ <a class="waves-effect waves-light btn-large" href="#">Wave</a>
+ 
+ ##### Code:
+
+~~~~
+ <a class="waves-effect waves-light btn-large" href="#">Wave</a>
+~~~~
+ 
+#### Dropdown btns
+
+ <!-- Dropdown Trigger -->
+  <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+  
+  ~~~~
+   <!-- Dropdown Trigger -->
+  <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+  ~~~~
