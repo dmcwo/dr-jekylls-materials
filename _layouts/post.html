@@ -4,7 +4,10 @@ layout: default
 <h1 class="postTitle">{{ page.title }}</h1>
   <!-- <p class="meta">{{ page.date | date: '%B %d, %Y' }} | <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Minute Read</p> -->
 {{ content }}
-<!-- POST NAVIGATION -->
+
+<!-- *** -->
+<!-- POST NAVIGATION with cards-->
+<!-- *** -->
 
 <hr>
 
@@ -12,7 +15,7 @@ layout: default
     {% if page.previous.url %}
     <!-- Card 1 -->
         <div class="col s6">
-          <div class="card grey darken-1 hoverable">
+          <div class="card blue darken-4 hoverable">
             <a href="{{ page.previous.url | prepend: site.baseurl }}">
                 <div class="card-content white-text">
               <!--<span class="card-title waves-effect"><a href="{{ page.previous.url | prepend: site.baseurl }}"><i class="material-icons">chevron_left</i>&nbsp;{{ page.previous.title }}</a></span>-->
@@ -35,7 +38,7 @@ layout: default
     {% if page.next.url %}  
         <!-- Card 2 -->
             <div class="col s6">
-          <div class="card grey darken-1 hoverable">
+          <div class="card blue darken-4 hoverable">
               <a href="{{ page.next.url | prepend: site.baseurl }}">
               <div class="card-content white-text">
               <!--<span class="card-title waves-effect"><a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}&nbsp;<i class="material-icons">chevron_right</i></a></span>-->
