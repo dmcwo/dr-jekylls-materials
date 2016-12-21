@@ -4,6 +4,7 @@ title:  "Slideshows"
 date:   2016-12-05 19:48:51 -0800
 categories:
 excerpt: How to create slideshows, sliders, and the like
+specialjsfeatures: true
 ---
 
 #### Slider
@@ -40,6 +41,16 @@ excerpt: How to create slideshows, sliders, and the like
       </li>
     </ul>
 </div>
+
+First, set ``specialjsfeatures`` to ``true`` in the YAML front matter:
+
+~~~~
+
+specialjsfeatures: true
+
+~~~~
+
+Then, include something like the following in the content area of the post:
 
 ~~~~
 <div class="slider">
