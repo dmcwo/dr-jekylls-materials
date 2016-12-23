@@ -35,6 +35,10 @@ Or install it yourself as:
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/dmcwo/dr-jekylls-materials. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+## Rubygems.org
+
+It is here, too: https://rubygems.org/gems/dr-jekylls-materials
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
