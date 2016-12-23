@@ -1,12 +1,31 @@
 {% include header.html %}
- 
+<!-- Old nav
 <nav>
     <div class="nav-wrapper">
-      <div class="container">     
-           <a href="{{ site.baseurl }}/" class="brand-logo"> {{ site.title }} </a> 
+      <div class="container">
+          <a href="{{ site.baseurl }}/" class="brand-logo"> {{ site.title }} </a> 
       </div>
     </div>
 </nav>
+-->
+
+
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="{{ site.baseurl }}/" class="brand-logo"> {{ site.title }} </a>
+     <ul class="right hide-on-med-and-down">
+      {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = site.url | append: site.baseurl %}
+            {% endif %}
+            <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+         </ul>
+        {% include side-nav.html %}
+    </div>
+  </nav>
+
  
 <div class="container">
      {{ content }} 
