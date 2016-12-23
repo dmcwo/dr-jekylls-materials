@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+> Into this wilde Abyss, The Womb of nature and perhaps her Grave, Of neither Sea, nor Shore, nor Air, nor Fire, But all these in their pregnant causes mixt Confus’dly, and which thus must ever fight, Unless th’ Almighty Maker them ordain His dark materials to create more Worlds ....
+> — Paradise Lost, Book 2, lines 910–920
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+> “You start a question, and it's like starting a stone. You sit quietly on the top of a hill; and away the stone goes, starting others...” 
+> ― Robert Louis Stevenson, The Strange Case of Dr. Jekyll and Mr. Hyde
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[Materialize](http://materializecss.com/) is amazing. [Jekyll](https://jekyllrb.com), amazing, too. The two together? Doubly amazing. With this theme, I'm trying to learn how theming works, and also experiment with integrating some materialized magic to jekyll.

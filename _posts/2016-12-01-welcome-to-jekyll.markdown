@@ -5,7 +5,13 @@ date:   2016-12-01 19:48:51 -0800
 categories: 
 excerpt: this is a test page with some common elements
 ---
-This is a test page with some common elements. Enjoy!
+> Into this wilde Abyss, The Womb of nature and perhaps her Grave, Of neither Sea, nor Shore, nor Air, nor Fire, But all these in their pregnant causes mixt Confus’dly, and which thus must ever fight, Unless th’ Almighty Maker them ordain His dark materials to create more Worlds ....
+> — Paradise Lost, Book 2, lines 910–920
+
+> “You start a question, and it's like starting a stone. You sit quietly on the top of a hill; and away the stone goes, starting others...” 
+> ― Robert Louis Stevenson, The Strange Case of Dr. Jekyll and Mr. Hyde
+
+What follows is a test page with some common elements. Enjoy!
 
 Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Contra legem facit qui id facit quod lex prohibet. Quis aute iure reprehenderit in voluptate velit esse. Cras mattis iudicium purus sit amet fermentum.
 
