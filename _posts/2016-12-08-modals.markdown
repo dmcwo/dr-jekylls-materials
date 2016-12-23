@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Modals"
+date:   2016-12-08 19:48:51 -0800
+categories:
+excerpt: Modals?
+---
+
+#### Modals
+
+<!-- Modal Trigger -->
+<a class="waves-effect waves-light btn" href="#modal1">Modal</a>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Mercedem aut nummos unde unde extricat, amaras. Contra legem facit qui id facit quod lex prohibet.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
